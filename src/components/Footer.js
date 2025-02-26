@@ -12,8 +12,8 @@ export const Footer = () => {
           {/* <MailchimpForm /> */}
           <Col size={12} sm={6}>
             <div className="caftech-footer-logo">
-              <span style={{ color: "#fff" }}>Caf</span>
-              <span className="tech-highlight">Tech</span>  
+              <span style={{ color: "#fff" }}>Mariam</span>
+              <span className="tech-highlight">Elmoazen</span>  
             </div>
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
