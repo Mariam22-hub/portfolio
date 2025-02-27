@@ -333,6 +333,26 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ Skills Css ************/
+
+.skill-item img {
+  width: 80px; /* Default size */
+  height: 80px;
+}
+
+@media (max-width: 768px) {
+  .skill-item img {
+    width: 60px; /* Reduce size for smaller screens */
+    height: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .skill-item img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
 .skill {
   padding: 0 0 50px 0;
   position: relative;
@@ -773,7 +793,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .pagination__link {
   padding: 10px 15px;
   border-radius: 5px;
-  /* background: linear-gradient(90deg, #AA367C, #4A90E2); */
   color: white;
   font-weight: bold;
   cursor: pointer;
@@ -787,7 +806,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .pagination__active {
-  /* background: linear-gradient(90deg, #d377b1, #89b8ff); */
   color: white;
   border: 1px solid white;
 }
@@ -810,6 +828,94 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .pagination__link.next:hover {
   /* background: linear-gradient(90deg, #c487a7, #7da4e5); */
   color: rgba(255, 255, 255, 0.9); /* Slightly lighter than normal */
+}
+
+@media (max-width: 1024px) {
+  .banner h1 {
+    font-size: 50px;
+  }
+  .banner p {
+    font-size: 16px;
+    width: 90%;
+  }
+  .skill-bx, .project p {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  nav.navbar {
+    padding: 10px 0;
+  }
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    font-size: 16px;
+    padding: 0 15px;
+  }
+  .caftech-logo, .caftech-footer-logo {
+    font-size: 24px !important;
+    letter-spacing: 2px;
+  }
+  .banner {
+    padding: 150px 0 80px 0;
+  }
+  .banner h1 {
+    font-size: 40px;
+  }
+  .banner p {
+    font-size: 14px;
+  }
+  .skill-bx {
+    padding: 40px 30px;
+  }
+  .project p {
+    width: 90%;
+    font-size: 16px;
+  }
+  .contact form input, .contact form textarea {
+    padding: 12px 18px;
+    font-size: 16px;
+  }
+  .contact form button {
+    padding: 12px 30px;
+    font-size: 16px;
+  }
+  .footer p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .caftech-logo, .caftech-footer-logo {
+    font-size: 18px !important;
+    letter-spacing: 1px;
+  }
+  .banner {
+    padding: 120px 0 60px 0;
+  }
+  .banner h1 {
+    font-size: 30px;
+  }
+  .banner p {
+    font-size: 13px;
+  }
+  .banner button {
+    font-size: 16px;
+  }
+  .project p {
+    width: 100%;
+    font-size: 14px;
+  }
+  .contact form input, .contact form textarea {
+    padding: 10px 14px;
+    font-size: 14px;
+  }
+  .contact form button {
+    padding: 10px 25px;
+    font-size: 14px;
+  }
+  .footer img {
+    width: 50%;
+  }
 }
 
 
